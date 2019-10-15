@@ -47,7 +47,7 @@ int main () {
 // 		printf("입력한 수 양수 %d는 짝수입니다.\n", input);
 	
 // 	else if (input % 2 != 0 && input >= 0)
-// 			printf("입력한 수 양수 %d는 홀수입니다.\n", input);
+// 		printf("입력한 수 양수 %d는 홀수입니다.\n", input);
 
 // 	else
 // 		printf("입력한 수 %d는 음수입니다.\n", input);
