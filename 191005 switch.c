@@ -20,7 +20,9 @@ int main () {
 	case 3:
 		printf("Good evening\n");
 		break;
-
+	default : 
+		printf("잘못 입력하였습니다\n");
+		break;
 	}
 
 	return 0;
