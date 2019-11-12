@@ -2,10 +2,13 @@
 
 int factorial(int n);
 int main(void){
-	int fact;
-	fact = factorial(10);
+	int fact, n;
+	
+	scanf("%d", &n);
 
-	printf("10! : %d\n", fact);
+	fact = factorial(n);
+
+	printf("%d! : %d\n", n, fact);
 
 	return 0;
 }
