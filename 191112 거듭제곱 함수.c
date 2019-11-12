@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int sq(int i, int n);
+int sq(int a, int b);
 
 int main(void){
-	
+
 	int a, b, result;
 
 	printf("a의 b거듭제곱?\n");
@@ -16,10 +16,11 @@ int main(void){
 	return 0;
 }
 
-int sq(int i, int n)
+int sq(int a, int b)
 {
+	int i;
 	int A = 1;
-	for(i=0; i<n; i++){
+	for(i=0; i<b; i++){
 		A = A * a;
 	}
 	return A;
